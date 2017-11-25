@@ -18,7 +18,7 @@ function init() {
     if (key === code.length){
       alert(code);
       index = 0;
-        }
+    }
       } else {
         i = 0;
       }
