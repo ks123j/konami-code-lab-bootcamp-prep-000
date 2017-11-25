@@ -4,6 +4,7 @@ function init() {
   let index = 0;
   var Konami_Code = function (e) {
     const key = parseInt(e.detail || e.which);
+
     if (key === code[index]) {
       index++;
       if (index === code.length){
