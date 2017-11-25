@@ -11,7 +11,7 @@ function init() {
         index = 0;
       }
     } else {
-      index = 0;
+    index = 0;
     }
   }
   document.addEventListener('keydown', Konami_Code);
