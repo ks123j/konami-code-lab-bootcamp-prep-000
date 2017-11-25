@@ -16,7 +16,6 @@ function init() {
         triggerKeyDown(code[i])
         alert (code[i]);
         if (key === code.length){
-          alert("COMPLETED");
           i = 0;
         }
       } else {
