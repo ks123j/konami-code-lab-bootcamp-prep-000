@@ -14,5 +14,5 @@ function init() {
       index = 0;
     }
   }
-  document.addEventListener('keydown', Konami_Code(e));
+  document.addEventListener('keydown', Konami_Code());
 }
