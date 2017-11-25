@@ -13,11 +13,11 @@ function init() {
   });
   function Konami_Code(e) {
     const key = parseInt(e.detail || e.which);
-      if (key === code[index]) {
+    if (key === code[index]) {
       index++;
-        if (key === code.length){
-          alert(code);
-          i = 0;
+    if (key === code.length){
+      alert(code);
+      index = 0;
         }
       } else {
         i = 0;
